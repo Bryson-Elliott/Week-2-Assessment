@@ -10,7 +10,9 @@
 */
 
 //CODE HERE
-
+let gitDefinition = (`Git is something that helps you 
+connect your code in multiple locations it also helps activate through
+the terminal.`)
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +20,8 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = (`Github is a website that allows you to collect your code
+and put it on display`)
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +37,8 @@
 */
 
 //CODE HERE
-
+let init = (`Init is a way to initialize a repository or where you can 
+store your code 'git init' being the actual command`)
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +46,7 @@
 */
 
 //CODE HERE
-
+let clone = (`clone allows you to creat a copy of a set of code 'git clone'`)
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +54,8 @@
 */
 
 //CODE HERE
-
+let status = (`Status is the way to check if your modifications/changes have been added
+to your actual file/folder 'git status'`)
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +63,8 @@
 */
 
 //CODE HERE
-
+let add = (`add is the way that you push your modifications/changes 
+to the file or folder being worked on 'git add filename' or 'git add .'`)
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +72,8 @@
 */
 
 //CODE HERE
-
+let commit = (`commit is what you do to commit the changes to the file 
+and update what is in the file 'git commit -m 'message'`)
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +82,5 @@
 */
 
 //CODE HERE
+let push = (`Push is what you use to push the code to another location
+where you want to store it like git hub 'git push'`)

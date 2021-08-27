@@ -15,10 +15,16 @@
 */
 
 //CODE HERE
+let me = {
+  firstName: `Bryson`,
+  state: `Utah`,
+  age: 21,
+  greeter: function()
+  {return `Hello! My name is ${me.firstName} and I live in ${me.state}.`
 
-
-
-
+},
+} 
+console.log(me.greeter())
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -45,3 +51,18 @@
 */
 
 //CODE HERE
+function carFactory(make, model, year) {
+  let car = {
+    make: make,
+    model: model,
+    year: year,
+  }
+  if (year > 2018){
+    car.isNew = true
+  }
+  else {
+    car.isNew = false
+  } return car
+}
+
+
