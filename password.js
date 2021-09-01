@@ -12,4 +12,4 @@ if (passwordLength >= 10){
 } else console.log(`Password is incorrect`)
 }
 let password = `Mitochondria`
-console.log(password)
+//console.log(password)

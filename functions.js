@@ -21,10 +21,10 @@ sum(6, 7)
 //CODE HERE
 function greaterThanFive(number){
   if (number === 5){
-  console.log(true)}
-  else if (number !== 5){
-  console.log(false)
-}
+    console.log(true)
+  } else if (number !== 5){
+    console.log(false)
+  }
 }
 let number = 7
 //////////////////PROBLEM 3////////////////////
@@ -37,14 +37,14 @@ let number = 7
 
 //CODE HERE
 function findZWords(word) {
-  if (findZWords === Z)
-  console.log(`the name begins with Z`)
-  if (findZWords !== Z){
-  console.log(`the name doesn't begin with Z`)
+  if (word[0].toLowerCase() === "z"){
+    console.log(`the name begins with Z`)
+  } else {
+    console.log(`the name doesn't begin with Z`)
   }
-}
+ }
 
-findZWords('Bryson')
+console.log(findZWords('Bryson'))
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -53,9 +53,8 @@ findZWords('Bryson')
 */
 
 //CODE HERE
-let love = `Basketball`
-function iLove(`'name', 'love'`) {
-  let name = 'Bryson'
+function ilove(name, love){
+  return `${name} loves ${love}`
 }
 
-console.log(`${name} loves ${love}.`)
+console.log(ilove(`bryson`, `basketball`))
